@@ -1,0 +1,10 @@
+	Dockerfiles
+
+This repository contains the docker files that I use reguarly. Mostly,
+they're for copying the servers at my uni so I don't have to constantly
+SSH into the to check my code works on the server, not just my machine.
+My aim is to make them as close as possible to drop in replacements. Also,
+something that would be particuarly nice to have would be something like
+hot reloading so I can develop locally and it gets replicated in the container.
+For compiled languages it would also be nice for the code to be recompiler
+but that can probably be handled by installing some sort of watcher.
